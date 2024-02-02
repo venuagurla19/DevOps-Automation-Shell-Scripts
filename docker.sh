@@ -3,6 +3,7 @@
 # Update the package manager and install Docker
 sudo apt-get update -y
 sudo apt-get install -y docker.io
+sudo usermod -aG docker $USER && newgrp docker
 
 # Start the Docker service
 sudo systemctl start docker
