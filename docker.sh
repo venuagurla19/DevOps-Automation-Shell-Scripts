@@ -4,7 +4,9 @@
 sudo apt-get update -y
 sudo apt-get install -y docker.io
 sudo usermod -aG docker $USER && newgrp docker
-
+sudo chmod 777 /var/run/docker.sock
+sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins
 # Start the Docker service
 sudo systemctl start docker
 
