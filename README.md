@@ -46,10 +46,3 @@ Before using any script, ensure that your system meets the following prerequisit
 - Bash shell (version 4.0 or higher)
 - Internet connection for downloading dependencies
 
-### Contributing
-
-We welcome contributions! If you'd like to contribute to this project, please follow the steps outlined in the [Contributing Guide](CONTRIBUTING.md).
-
-### License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the scripts as needed.
